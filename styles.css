@@ -4,5 +4,91 @@
     margin: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
 
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
 
+header {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 69px;
+    background-color: #000;
+}
+
+header .logo {
+    background-image: url('img/img-tea-cozy-logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 50px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+nav {
+    margin: 10px
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 10px;
+}
+
+nav li a {
+    color: seashell;
+    padding: 10px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.mission-img {
+    background-image: url('img/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.overlay {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    width: 1200px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+h4 {
+    padding-bottom: 10px;
+}
